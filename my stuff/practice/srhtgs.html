@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek Portfolio</title>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to my Portfolio</h1>
+    <!-- Navigation buttons wrapped properly -->
+    <nav>
+      <a href="#about"><button><strong>About</strong></button></a>
+      <a href="#skills"><button><strong>Skills</strong></button></a>
+      <a href="#projects"><button><strong>Projects</strong></button></a>
+      <a href="#contact"><button><strong>Contact</strong></button></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h1>Abhishek Karukonda</h1>
+      <img src="pic2.jpg" height="400px" alt="Abhishek pic" />
+      <p>
+        I am a passionate web developer with a focus on front-end technologies.<br>
+        I am currently pursuing my B.Tech in <i>Dadi Institute of Engineering and Technology</i>.<br>
+        I have learnt Web Development from <strong>Code With Swaroop</strong>.<br>
+        You can click here to check out what I have learnt in HTML, CSS, and JS.
+      </p>
+    </section>
+
+    <br>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h1>My Skills</h1>
+      <ol>
+        <li>Python</li>
+        <li>C Language</li>
+        <li>Power BI</li>
+        <li>HTML</li>
+      </ol>
+    </section>
+
+    <br>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1>My Projects</h1>
+      <table border="1">
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Did Python course in Aqua Infotech</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Created a portfolio website using HTML</td>
+        </tr>
+      </table>
+    </section>
+
+    <br>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>Feel free to get in touch with me using the form below:</p>
+      <form>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <label for="emaill">Email:</label>
+        <input type="email" id="emaill" name="email" required>
+        <br><br>
+
+        <b>Choose your gender:</b><br>
+        <input type="radio" id="radiomale" name="gender" value="male">
+        <label for="radiomale">Male</label>
+
+        <input type="radio" id="radiofemale" name="gender" value="female">
+        <label for="radiofemale">Female</label>
+        <br><br>
+
+        <b>Select your interests:</b><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <label for="bio">Bio (up to 200 characters):</label><br>
+        <textarea id="bio" name="bio" maxlength="200" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
